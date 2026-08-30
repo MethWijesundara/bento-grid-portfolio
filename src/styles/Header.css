@@ -1,0 +1,146 @@
+.header {
+
+    position: relative; 
+
+    /* border-radius: 12px; */
+    text-align: center;
+
+    padding: 4.4rem 0rem;
+    /* margin-top: 1rem; */
+    margin-bottom: 6rem;
+
+    /* background */
+    background:
+        linear-gradient(
+            rgba(255, 255, 255, 0.4),
+            rgba(255, 255, 255, 0.6)
+        ),
+        url('/images/sky(3).jpg');
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;    
+
+}
+
+.header::before{
+    content: "";
+    position: absolute;
+    inset: 0;
+
+    background: 
+        linear-gradient(
+            rgba(255,255,255, 0.4),
+            rgba(255,255,255, 0.6)
+        ),
+        url('/images/sky(4).jpg');
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    opacity:0;
+    transition: all 0.4s ease-in-out;
+    pointer-events: none;
+}
+
+.header:hover::before{
+    opacity: 1;
+}
+
+.header-container,
+.header-introduction,
+.headline {
+    z-index: 1;
+}
+
+.header-container{
+    /* margin */
+    margin: 0 0 1rem;
+
+    /* width */
+    width: 100%;
+
+    position: relative;
+
+    /* border: 1px dashed red; */
+    /* background:
+        linear-gradient(
+            rgba(255, 255, 255, 0.4),
+            rgba(255, 255, 255, 0.6)
+        ),
+        url('/images/sky.jpg'); */
+}
+
+.header-introduction,
+.headline{
+    position: absolute;
+    /* left: 50%;
+    transform: translateX(-50%); */
+    width: 100%;
+}
+
+
+.header-introduction{
+    bottom: -1.5rem;
+    font-size: 2.8rem;
+}
+
+.headline {
+    bottom: -3rem;
+    font-size: 1.2rem;
+    color: var(--text-secondary)
+}
+
+.name{
+    color:var(--text);
+    transition: all 0.2s ease-in-out;
+}
+
+.header:hover .name{
+    color: var(--accent);
+}
+
+.hover-label{
+    position: absolute;
+
+    top: 0.8rem;
+    right: 1rem;
+
+    font-size: 1rem;
+    color: var(--text-secondary);
+
+    background-color: white;
+
+
+    opacity: 0.7;
+
+    z-index: 2;
+
+    animation: float 1.5s ease-in-out;
+}
+
+/* @keyframes float {
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(4px);
+    }
+} */
+
+.header-controls{
+    position: absolute;
+
+    top: 0.8rem;
+    right: 1rem;
+
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+
+    z-index: 2;
+}
+

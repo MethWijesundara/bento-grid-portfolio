@@ -1,0 +1,51 @@
+.skills-grid{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+}
+
+.skills-card{
+    border: 1px solid var(--border);
+    /* border: 2px dashed blue; */
+    background: var(--surface);
+    padding: 0.5rem;
+    border-radius: 12px;
+    margin-bottom: 1rem;
+}
+
+.skills-card h3{
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.skill-tag{
+    /* Background & Border */
+    background:white;
+    border: 1px solid var(--border);
+    border-radius: 12px;
+
+    /* Text color */
+    color: var(--text-secondary);
+
+    /* Font */
+    font-size: 0.85rem;
+    font-weight: 500;
+
+    /* Padding & Margin*/
+    padding: 0.3rem 1rem;
+    /* I think margin is already being handled */
+
+    /* Animations & Cursor */
+    transition: all 0.2s ease-in-out;
+    cursor: default;
+
+}
+
+.skill-tag:hover{
+    border: 1px solid var(--accent);
+    transform: translateY(2px) scale(0.99);
+}
+
+.skills-container{
+    padding: 1rem;
+}

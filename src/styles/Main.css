@@ -1,0 +1,26 @@
+.portfolio{
+    /* Adjust content width here. I used 65%. */
+    width: 70%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.content-grid{
+    display: flex;
+    align-items: flex-start;
+    gap: 1.5rem;
+}
+
+.main-col{
+    flex: 3;
+}
+
+.side-col{
+    flex: 2;
+}
+
+.grid-col{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}

@@ -1,0 +1,53 @@
+
+.unordered-list{
+  list-style-type: none;
+  padding-left:0;
+}
+
+.edu-item{
+    /* border: 2px dashed blue; */
+
+    /* background & border */
+    background: var(--surface);
+    border-radius: 12px;
+    border: 1px solid var(--border);
+    
+    /* margin & padding */
+    margin: 0.5rem;
+    padding: 0.5rem;
+}
+
+.edu-item ul{
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  /* gap: 0.5rem 1rem; */
+  /* margin-top: 0.5rem; */
+  /* padding-left: 0; */
+}
+
+.edu-item ul li{
+  background:white;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 0.4rem 0.8rem;
+  margin: 4px;
+  font-weight: 500;
+  color:#6c757d;
+  font-size: 0.85rem;
+  transition: all 0.2s ease-in-out;
+  
+}
+.education .date{
+  color:gray;
+  font-weight: 500;
+}
+
+
+
+.edu-item ul li:hover{
+  /* background:whitesmoke; */
+  border: 1px solid var(--accent);
+  cursor:default;
+  transform: translateY(2px) scale(0.99);
+}

@@ -1,0 +1,8 @@
+.about-card{
+    align-self: start;
+}
+
+.paragraph{
+    color:var(--text);
+    padding: 1rem;
+}
