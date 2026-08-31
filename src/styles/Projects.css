@@ -1,3 +1,4 @@
+
 .project-card{
     /* background and border */
     background: whitesmoke;
@@ -16,14 +17,16 @@
     
 }
 
-.project-card:hover{
-    /* border: 1px solid var(--accent); */
-}
-
 .tech{
     font-weight: 400;
-    font-style: italic;
+    /* font-style: italic; */
+    /* transition: all 0.2s ease-in-out; */
 }
+
+.project-card:hover .github_icon{
+    border:1px dashed var(--accent);
+}
+
 
 .project{
     color:var(--text);
@@ -43,28 +46,13 @@
     top: 0;
     right: 0;
 
-    height: 50%;
+    height: 50px;
+    width: 50px;
 
     padding: 0;
     margin: 0.1rem;
 
-    /* line-height: 0; */
-
-    /* border */
-    
-
     transition: all 0.2s ease-in-out;
-}
-
-.project-buttons .btn:hover{
-    
-    /* transform */
-
-    
-
-    /* color */
-
-    
 }
 
 /* .arrow{
@@ -81,14 +69,16 @@
 .date{
     font-size: 0.9rem;
     font-weight: 400;
+    font-style: italic;
     /* color: var(--accent); */
 }
 
 .github_icon{
     display: block;
-    height:50px;
 
-    border-radius: 0 11px 0 11px;
+    
+    height: 100%;
+    width: 100%;
 
     background-position: center;
     background-size: cover;
@@ -104,6 +94,6 @@
 }
 
 .github_icon:hover{
-    transform: translateX(-2px);
+    transform: translateX(-3px);
     border: 1px solid var(--accent);
 }

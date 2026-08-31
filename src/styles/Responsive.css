@@ -25,5 +25,31 @@
     .main-col,
     .side-col{
         width: 100%;
+        display:contents;
+    }
+
+    .main-col>:nth-child(1){
+        order: 1; 
+        /* about */
+    }
+
+    .side-col>:nth-child(1){
+        order: 2;
+        /* action cards */
+    }
+
+    .side-col>:nth-child(2){
+        order: 3;
+        /* skills */
+    }
+
+    .main-col>:nth-child(2){
+        order: 4;
+        /* education */
+    }
+
+    .main-col>:nth-child(3){
+        order: 5;
+        /* work */
     }
 }

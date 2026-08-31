@@ -5,29 +5,35 @@ function Projects(){
     const projects = [
         {
             id: '1',
-            title: 'Renwu',
-            tech: 'C , SQLite',
+            title: 'DNA → RNA Transcription',
+            scale: "Small",
+            tech: 'Python, Biology',
             date: 'August 2026',
-            description: 'A simple CLI task manager built using C. It uses SQLite for storage.',
-            github: ''
+            status: 'Completed',
+            description: 'A small script that converts a DNA sequence to RNA.',
+            github: 'https://github.com/MethWijesundara/DNA-to-RNA-transcription'
         },
 
         {
             id: '2',
-            title: 'DAYLI',
-            tech: 'Python , MySQL',
-            date: 'July 15, 2026',
-            description: 'A CLI journaling app',
-            github: 'github-link-2'
+            title: 'EduNova Landing Page',
+            scale: "Medium",
+            tech: 'HTML, CSS, ',
+            date: 'May 2026',
+            status: "Completed",
+            description: 'A simple user interface for a learning platform.',
+            github: 'https://github.com/MethWijesundara/EduNova-landing-page'
         },
 
         {
             id: 'id-3',
-            title: 'title-3',
-            tech: 'tech-stack-3',
-            date: 'date-3',
-            description: 'description-3',
-            github: 'github-link-3'
+            title: 'Automated Weather Notifier',
+            scale: "Medium",
+            tech: 'Python, OpenWeatherMap API',
+            date: 'March 2026',
+            status: "Comepleted",
+            description: 'Fetches real-time weather data and sends a desktop notification with personalized advice.',
+            github: 'https://github.com/MethWijesundara/automated-weather-notifier'
         }
     ]
     return(
@@ -40,7 +46,7 @@ function Projects(){
 
                     {/* Heading = Project name + tech stack */}
                     <h3 className="project">
-                        {project.title}<span className='straight-line'> • </span>{''}
+                        {project.title}<span className='straight-line'> | </span>{''}
                         <span className='tech'>{project.tech}</span>
                     </h3>
 

@@ -35,7 +35,11 @@
 }
 
 .card:hover{
-    transform: translateY(3px) scale(0.99);
+    transform: scale(1.02) translateY(2px);
     border: 1px solid var(--accent);
-    background: var(--surface);
+    background: var(--bg);
+}
+
+.card:active{
+    transform: scale(0.98);
 }

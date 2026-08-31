@@ -9,7 +9,7 @@ const Header = () => {
                 <header className="header">
 
                     <span className="hover-label">
-                        ← hover over 
+                        ← hover over | tap 
                     </span>
                     
                     <h1 className='header-introduction'>hi, i'm{" "} <span className="name">{NAME}</span>!</h1>

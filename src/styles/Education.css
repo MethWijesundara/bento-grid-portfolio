@@ -21,9 +21,8 @@
   list-style: none;
   display: flex;
   flex-wrap: wrap;
-  /* gap: 0.5rem 1rem; */
-  /* margin-top: 0.5rem; */
-  /* padding-left: 0; */
+  gap: 0.5rem 1rem;
+  margin-top: 0.5rem;
 }
 
 .edu-item ul li{
@@ -49,5 +48,5 @@
   /* background:whitesmoke; */
   border: 1px solid var(--accent);
   cursor:default;
-  transform: translateY(2px) scale(0.99);
+  transform: translateY(-2px);
 }

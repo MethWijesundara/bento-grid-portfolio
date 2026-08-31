@@ -43,7 +43,7 @@
 
 .skill-tag:hover{
     border: 1px solid var(--accent);
-    transform: translateY(2px) scale(0.99);
+    transform: translateY(-2px);
 }
 
 .skills-container{

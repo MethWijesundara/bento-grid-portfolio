@@ -6,6 +6,7 @@ import Skills from "./components/Skills";
 import ActionCards from "./components/ActionCards";
 import Projects from "./components/Projects";
 import Education from "./components/Education";
+import Footer from "./components/Footer";
 
 // STYLING
 import "/src/styles/Base.css";
@@ -17,6 +18,7 @@ import "/src/styles/ActionCards.css";
 import "/src/styles/About.css";
 import "/src/styles/Projects.css";
 import "/src/styles/Education.css";
+import "/src/styles/Footer.css";
 
 function App(){
   return(
@@ -38,6 +40,7 @@ function App(){
           </div>
         </div>
       </div>
+      <Footer />
     </main>
   );
 }

@@ -8,10 +8,10 @@ import { faGithub, faLinkedin, faTumblr, faSubstack } from '@fortawesome/free-br
 
 // ENTER LINKS HERE
 const email = "methw.dev@gmail.com";
-const GitHub = "Enter your github link here";
-const LinkedIn = "Enter your linkedIn profile link here";
-const Tumblr = "";
-const SubStack = "";
+const GitHub = "https://github.com/MethWijesundara";
+const LinkedIn = "https://www.linkedin.com/in/meth-wijesundara/";
+const Tumblr = "https://www.tumblr.com/blog/methwijesundara";
+const SubStack = "https://methwijesundara.substack.com/notes";
 
 const cardsData = [
     {
