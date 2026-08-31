@@ -30,4 +30,4 @@ I'll probably keep changing things as I learn more, build more projects, and ine
 
 ---
 
-Built with curiosity, caffeine, and a questionable amount of CSS experiments. ☕✨
+**Built with curiosity, caffeine, and a questionable amount of CSS experiments.** ☕✨
