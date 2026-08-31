@@ -17,3 +17,17 @@ I build this portfolio with:
 - Vanilla CSS
 - React.js / JSX
 - Font Awesome Icons & Icons8
+
+## Running Locally
+- Clone the repository and install dependencies using `npm install`.
+- Start the development server with `npm start`. 
+- The portfolio should then be available.
+
+## Status
+This portfolio is a work in progress. 
+
+I'll probably keep changing things as I learn more, build more projects, and inevitably decide that something I made a while ago needs to be redesigned. :) 
+
+---
+
+Built with curiosity, caffeine, and a questionable amount of CSS experiments. ☕✨
