@@ -1,27 +1,19 @@
 # 🌠Portfolio (V2) • Meth Wijesundara
+A personal portfolio built to showcase the things I'm learning, building, and occasionally getting way too obsessed with :)
 
-# Preview
-## Image 1
+## Preview
 <img width="1901" height="974" alt="image" src="https://github.com/user-attachments/assets/7545b4f8-acf2-4c4d-ab55-e8be00726b71" />
 
-## Image 2
 <img width="1897" height="520" alt="image" src="https://github.com/user-attachments/assets/e1129b97-f894-453e-a309-678ab9c0ec56" />
 
-# React + Vite
+## About
+I'm Meth, a Software Engineering student who enjoys building things with code, experimenting with web design, and learning about things outside of software too, like science. 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This portfolio (V2) is a step-up from previous portfolio that featured a traditional resume-style - and this is intentionally designed as a **bento-style** layout. I wanted it to feel more like a collection of small pieces about me. 
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
-
-Note: This will impact Vite dev & build performances.
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Built With
+I build this portfolio with:
+- HTML
+- Vanilla CSS
+- React.js / JSX
+- Font Awesome Icons & Icons8
