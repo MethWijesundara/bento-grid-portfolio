@@ -1,5 +1,29 @@
 @media (max-width: 768px){
+
+    .header{
+        padding: 3.5rem 1rem;
+        margin-bottom: 5rem;
+    }
+
+     .header-introduction {
+        font-size: 2.2rem;
+    }
+
+    .headline {
+        font-size: 1rem;
+    }
     .portfolio{
+        width: 100%;
+        padding: 0 1rem;
+    }
+
+    .content-grid{
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .main-col,
+    .side-col{
         width: 100%;
     }
 }
