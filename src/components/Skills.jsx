@@ -1,52 +1,54 @@
 const Skills = () =>{
     // Fill in your skills on the arrays.
-    
-    const Web_development = ['HTML', 'CSS', 'JavaScript', 'React.js'];
-    const backend_development = ['Express.js', 'Node.js'];
-    const programming_languages = ['🐍 Python', 'C', 'C#'];
-    const database = ['MySQL', 'MongoDB', 'Azure']
+
+    const skills = [
+        {
+            category: "Frontend",
+
+            items: ["HTML", "CSS", "JavaScript", "React.js"]
+        },
+
+        {
+            category: "Backend",
+            items: ["SQL", "Flask"]
+        },
+
+        {
+            category: "Programming languages",
+            items: ["Python"]
+        },
+
+        {
+            category: "Other tools",
+            items: ["Git", "GitHub", "VS Code"]
+        }
+    ]
 
     return(
-        <section className="skills">
+        <section className="skills-wrapper">
 
-            <h2>SKILLS</h2>
+            <h2>2. The toolkit</h2>
 
             <div className="skills-container">
-                <div className="skills-card">
-                    <h3>Programming Languages</h3>
-                    <div className="skills-grid">
-                        {programming_languages.map((skill, index)=> (
-                            <span key={index} className="skill-tag">{skill}</span>
-                        ))}
-                    </div>
-                </div>
 
-                <div className="skills-card">
-                    <h3>Web Development</h3>
-                    <div className="skills-grid">
-                        {Web_development.map((skill, index)=> (
-                            <span key={index} className="skill-tag">{skill}</span>
-                        ))}
-                    </div>
-                </div>
+                {skills.map((group, index) =>(
+                    <div key={index} className="skills-cards-container">
 
-                <div className="skills-card">
-                    <h3>Backend Development</h3>
-                    <div className="skills-grid">
-                        {backend_development.map((skill, index)=> (
-                            <span key={index} className="skill-tag">{skill}</span>
-                        ))}
-                    </div>
-                </div>
+                        <div className="skills-card-heading">
+                            <h3>{group.category}</h3>
+                            
+                        </div>
 
-                <div className="skills-card">
-                    <h3>Databases</h3>
-                    <div className="skills-grid">
-                        {database.map((skill, index)=> (
-                            <span key={index} className="skill-tag">{skill}</span>
-                        ))}
+                        <div className="skills-grid">
+                            {group.items.map((skill,i) => (
+                                <span className="skill-tag" key={i}>
+                                {skill}
+                                </span>
+                            ))}
+                        </div>
                     </div>
-                </div>
+                ))}
+
             </div>
 
         </section>

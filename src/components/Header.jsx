@@ -1,19 +1,19 @@
 const Header = () => {
 
     // * Enter your name and role here.
-    const NAME = "meth";
-    const ROLE = "software engineering student";
+    const NAME = "Meth";
+    const ROLE = "Software engineering student & developer";
 
     return (
             <div className="header-container">
                 <header className="header">
 
-                    <span className="hover-label">
+                    {/* <span className="hover-label">
                         ← hover over | tap 
-                    </span>
+                    </span> */}
                     
-                    <h1 className='header-introduction'>hi, i'm{" "} <span className="name">{NAME}</span>!</h1>
-                    <p className='headline'>{ROLE}</p>
+                    <h1 className='header-introduction'>Welcome to <span className="name"> {NAME}'s laboratory</span> !</h1>
+                    {/* <p className='headline'></p> */}
                 </header>
             </div>
     )

@@ -1,21 +1,45 @@
+/* importing google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 /* Design Tokens */
 :root {
-  --text: #1a1a2e;
-  --text-secondary: #4f5563;
-  --text-muted: #6c757d;
+  /* --text: #174c4f; */
+  --text: black;
+  --text-secondary: gray;
+  --text-muted: #788c89;
 
-  --bg: #ffffff;
-  --surface: #f3f4f6;
+  --bg-primary: #f5f2ea;
+  --bg-secondary: #ffffff;
 
-  --border: #36454f;
-  --border-light: #e9ecef;
-  --heading-border: #333;
+  --border: #174c4f;
+  --border-light: #dce5df;
+  --heading-border: #287c78;
 
   /* Theme accent */
-  --accent: #ff8c00;
-  --accent-soft: rgba(255, 140, 0, 0.12);
+  --accent-orange: #e58a45;
+  --accent-teal: #287c78;
+  --accent-teal-soft: #70a9a5;
+  --accent-peach: #f1b875;
+  --accent-soft: rgba(229, 138, 69, 0.12);
 
-  --white: #ffffff;
+  /* font families */
+  --font-primary: "Inter", sans-serif;
+  --font-main-heading: "Fasthand", cursive;
+  --font-secondary-heading: "Handjet", sans-serif;
+
+  /* font sizes */
+  --text-sm: 0.875rem;
+  --text-base: 1rem;
+  --text-lg: 1.25rem;
+  --text-xl: 1.75rem;
+  --text-2xl: 2.25rem;
+
+  /* font weight */
+  --weight-regular: 400;
+  --weight-medium: 500;
+  --weight-semibold: 600;
+  --weight-bold: 700;
+
 }
 
 /* Global Reset */
@@ -31,15 +55,6 @@ html {
 }
 
 body {
-  font-family:
-    -apple-system,
-    BlinkMacSystemFont,
-    "Segoe UI",
-    Roboto,
-    Helvetica,
-    Arial,
-    sans-serif;
-
   background: var(--bg);
   color: var(--text);
   line-height: 1.6;
@@ -50,56 +65,46 @@ body {
 /* Section */
 
 section{
-  /* Padding & Margin */
-  /* padding: 1.5rem; */
-  margin: 0;
+
 
   /* Background & Border */
   background: var(--bg);
-  border: 2px solid var(--border);
-  border-radius: 14px;
+  /* border: 2px solid var(--border); */
+  border-radius: 1rem;
 
   /* Box-shadow */
-  box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+  /* box-shadow: 0 4px 12px rgba(0,0,0,0.06); */
 
   /* Transition  */
   transition: all 0.2s ease-in-out;
 
+  
 }
 
-section:hover h2{
-  background: var(--accent-soft);
+section h2{
   color: var(--text);
 }
+
+
 
 /* Headings */
 /* h2 */
 h2{
-  /* font-size and font-weight */
-  font-size: 1.5rem;
-  font-weight: 600;
+    font-family: "Handjet", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-variation-settings:
+        "ELGR" 1,
+        "ELSH" 2;
 
-  /* width */
-  width: 100%;
+    font-size: 2rem;
 
-  /* border */
-  border-radius: 12px 12px 0 0 ;
-  border-bottom: 2px solid black;
-
-  /* padding */
-  padding: 0.5rem 0.5rem;
-
-  /* background */
-  background: var(--heading-border);
-  color:var(--white);
-
-    /* Transition  */
-  transition: all 0.2s ease-in-out;
-
+    color: #00a896;
 }
 
 h3{
-  font-size: 1.1rem;
-  font-weight: 500;
-  margin-bottom: 0.25rem;
+
+  /* font-weight: 600 ; */
+  /* font-size: 1.6rem; */
 }

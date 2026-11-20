@@ -1,51 +1,51 @@
-.skills-grid{
+.skills-wrapper{
+    padding: 1rem;
+    /* border: 2px solid black; */
+}
+
+.skills-cards-container{
     display: flex;
-    flex-wrap: wrap;
-    gap: 0.6rem;
+    gap: 1rem;
+    flex-direction: column;
+    background: white;
+    border: 1px solid gray;
+    border-radius: 1rem;
+
+    padding: 1rem;
 }
 
 .skills-card{
-    border: 1px solid var(--border);
-    /* border: 2px dashed blue; */
-    background: var(--surface);
-    padding: 0.5rem;
-    border-radius: 12px;
-    margin-bottom: 1rem;
+    padding: 0 0 1rem 0;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+    padding: 1rem;
 }
 
-.skills-card h3{
-    font-weight: 500;
-    font-size: 1rem;
+
+.skills-card-heading{
+    font-family: var(--font-secondary-heading);
+    font-size: 1.2rem;
+}
+
+.skills-grid{
+    margin: 1rem;
+    /* border: 1px solid red; */
+}
+
+.skill-tag::before{
+    content: "  ›   "
 }
 
 .skill-tag{
-    /* Background & Border */
-    background:white;
-    border: 1px solid var(--border);
-    border-radius: 12px;
-
-    /* Text color */
-    color: var(--text-secondary);
-
-    /* Font */
-    font-size: 0.85rem;
-    font-weight: 500;
-
-    /* Padding & Margin*/
-    padding: 0.3rem 1rem;
-    /* I think margin is already being handled */
-
-    /* Animations & Cursor */
-    transition: all 0.2s ease-in-out;
-    cursor: default;
-
-}
-
-.skill-tag:hover{
-    border: 1px solid var(--accent);
-    transform: translateY(-2px);
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
 }
 
 .skills-container{
-    padding: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* flex-wrap: wrap; */
+    gap: 2rem;
 }

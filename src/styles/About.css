@@ -1,8 +1,90 @@
-.about-card{
-    align-self: start;
+/* importing google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght,ELSH@100..900,2&display=swap');
+
+.about-container{
+    border-radius: 1rem;
+    padding: 1rem;
+   
+
+
+    transition: all 0.25s ease-in-out;
+
+    box-shadow: none;
 }
 
-.paragraph{
-    color:var(--text);
+
+
+.about-content-wrapper{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    /* align-items: center; */
     padding: 1rem;
+
+    background-color: var(--bg-secondary);
+    border-radius: 1rem;
+    border: 1px solid gray;
+
+}
+
+
+.about-profile-picture{
+    height: 10rem;
+    width: 10rem;
+    object-fit: cover;
+    object-position: center 75%;
+    border-radius: 50%;
+    border: 2px solid gray;
+    background-color: whitesmoke;
+
+    /* padding: 1rem; */
+    margin: 1rem;
+
+    transition: transform 0.25s ease-in-out;
+
+}
+
+.about-profile-picture:hover{
+    transform: rotate(5deg);
+}
+
+.about-name{
+    font-size: 2rem;
+    line-height: 1;
+}
+
+.about-role{
+    font-weight: 600;
+    line-height: 3;
+    color: gray;
+}
+
+.about-content-paragraph{
+    color:var(--text);
+    padding: 1rem 0;
+    text-align: justify;
+    /* border: 1px solid black; */
+}
+
+.about-left{
+    width: 50%;
+}
+
+.about-left h3, .about-right h3{
+    font-family: var(--font-secondary-heading);
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.about-left-top{
+    display: flex;
+    align-items: center;
+}
+
+.about-right{
+    border-left: 2px solid rgba(23,76,79,0.15);
+    padding-left: 2rem;
+    margin-block: 1rem;
+
+    /* width: 50%; */
 }

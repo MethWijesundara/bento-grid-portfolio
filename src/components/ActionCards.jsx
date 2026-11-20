@@ -55,7 +55,7 @@ function ActionCards(){
         <section className='cards-container'>
 
             <h2>LINKS</h2>
-            <div className='links-container'>
+            <div className='container'>
                 {cardsData.map((card, index)=>(
                     <a
                         key={index}

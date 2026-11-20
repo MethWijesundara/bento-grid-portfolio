@@ -12,6 +12,7 @@
     .headline {
         font-size: 1rem;
     }
+    
     .portfolio{
         width: 100%;
         padding: 0 1rem;
@@ -51,5 +52,35 @@
     .main-col>:nth-child(3){
         order: 5;
         /* work */
+    }
+
+}
+
+@media screen and (max-width: 768px){
+    .main-layout{
+        display: flex;
+        flex-direction: column;
+
+        width: 100%;
+        height: auto;
+        gap: 1rem;
+
+    }
+
+    .navbar-container{
+
+        position: static;
+        width: 100%;
+        height: auto;
+        min-height: auto;
+        flex-direction: row;
+        min-height: auto;
+    }
+
+    .navbar-top{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
     }
 }

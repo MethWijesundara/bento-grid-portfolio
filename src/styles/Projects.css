@@ -1,35 +1,110 @@
 
+.projects{
+    /* border: 2px solid black; */
+    perspective: 800px;
+    padding: 1rem;
+}
+
+.project-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.project-type-buttons-container{
+    /* border: 1px solid red; */
+    display: flex;
+    gap: 2rem;
+}
+
+.project-type-buttons-container button{
+    font-family: var(--font-primary);
+    padding: 0.4rem 0.6rem;
+    border-radius: 0.75rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border: 2px solid gray;
+    background-color: white;
+
+    transition: background-color 0.25s ease-in-out;
+}
+.project-type-buttons-container button:hover{
+    background-color: var(--accent-peach);
+}
 .project-card{
     /* background and border */
-    background: whitesmoke;
+    background: var(--bg-secondary);
     border-radius:12px;
-    border:1px solid var(--border);
+    border:2px solid #aaaaaa;
     
     /* margin & padding */
-    margin: 1rem;
-    padding: 0.5rem;
+    margin: 1rem 0;
+    padding: 1rem;
 
     /* transitions */
     transition: all 0.2s ease;
 
     /* position */
     position: relative;
+
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+
+    /* width: fit-content; */
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    
     
 }
 
+.project-card-right{
+    border: 2px solid black;
+    border-radius: 1rem;
+
+    display: flex;
+    align-items: center;
+    
+}
+
+.project-card-right img{
+    height: 10rem;
+    border-radius: 1rem;
+
+    /* width: 100%; */
+    object-fit: cover;
+}
+
+.project-card:hover{
+    box-shadow: 0 6px 20px rgba(167, 229, 220, 0.35);
+    
+
+    border: 2px solid var(--accent-peach);
+    transform: translateZ(6px);
+
+    /* background: var(--accent-soft); */
+}
+
 .tech{
-    font-weight: 400;
+    color: var(--text-secondary);
+    font-size: var(--text-base);
     /* font-style: italic; */
-    /* transition: all 0.2s ease-in-out; */
 }
 
 .project-card:hover .github_icon{
-    border:1px dashed var(--accent);
+    border:1px dashed #00a896;
 }
 
 
-.project{
-    color:var(--text);
+.project-heading{
+    color:var(--accent-orange);
+    line-height: 1.2;
+    /* font-family: var(--font-secondary-heading); */
+    font-size: 1.2rem;
 }
 
 .btn{
@@ -67,10 +142,10 @@
 }
 
 .date{
-    font-size: 0.9rem;
-    font-weight: 400;
-    font-style: italic;
-    /* color: var(--accent); */
+    /* font-size: 0.9rem; */
+    /* font-weight: 500; */
+    /* font-style: italic; */
+    color: var(--text-primary);
 }
 
 .github_icon{
@@ -96,4 +171,10 @@
 .github_icon:hover{
     transform: translateX(-3px);
     border: 1px solid var(--accent);
+}
+
+.scale-status{
+    font-weight: 500;
+    font-size: 0.9rem;
+    color: var(--text-muted);
 }

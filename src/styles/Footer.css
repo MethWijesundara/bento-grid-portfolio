@@ -5,7 +5,20 @@
     font-size: 0.9rem;
 
     /* border, margin and padding */
-    border-top: 2px dashed var(--border-light);
-    margin: 1rem auto;
-    padding: 1rem auto;
+    border-top: 2px solid var(--border-light);
+
+    padding: 1rem;
+    margin-top: 1rem;
+
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+
+    width: 100%;
+}
+
+.footer a{
+    font-weight: 500;
+    color: gray;
 }
