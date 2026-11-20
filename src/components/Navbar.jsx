@@ -8,6 +8,7 @@ import work_icon from "/images/work_icon.png";
 import timeline_icon from "/images/timeline_icon.png";
 import contact_icon from "/images/email_icon.png";
 import skills_icon from "/images/skills_icon.png";
+import blog_icon from "/images/blog_icon.png"
 
 function Navbar({ activePage, setActivePage }){
     return(
@@ -41,6 +42,11 @@ function Navbar({ activePage, setActivePage }){
                     contact me
                 </a>
 
+                {/* <a onClick={() => setActivePage("contact")} 
+                className={`navbar-button ${activePage === "contact" ? "active" : ""}`}>
+                    <img src={blog_icon} />
+                    blog
+                </a> */}
 
 
             </div>

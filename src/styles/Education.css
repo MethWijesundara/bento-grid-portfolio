@@ -59,7 +59,7 @@
 
 .edu-item ul li:hover{
   /* background:whitesmoke; */
-  border: 1px solid teal;
+  border: 1px solid var(--accent-orange);
   cursor:default;
   transform: translateY(-2px);
 }

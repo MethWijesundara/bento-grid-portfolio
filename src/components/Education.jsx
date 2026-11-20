@@ -32,7 +32,7 @@ const Education = () => {
 
                 <div className='edu-item-container'>
                 <div className='edu-item'>
-                        <p><i class="date">2026 November</i></p>
+                        <p><i class="date">November 2026</i></p>
                         <h3 className='uni-name'>Kalana Furniture</h3>
                         <p>Ragama road, Kadawatha.</p>
                         
@@ -47,7 +47,7 @@ const Education = () => {
                     </div>
                     
                     <div className='edu-item'>
-                        <p><i class="date">2025 November - 2026 January</i></p>
+                        <p><i class="date">November 2025 - January 2026</i></p>
                         <h3 className='uni-name'>G.C.E Advanced Level (2nd attempt)</h3>
                         <p>Private applicant</p>
                         
@@ -71,7 +71,7 @@ const Education = () => {
                     </div>  
 
                     <div className='edu-item'>
-                        <p><i class="date">2020 - 2023 February</i></p>
+                        <p><i class="date">2020 - February 2023</i></p>
                         <h3 className='uni-name'>G.C.E Advanced Level (1st attempt)</h3>
                         <p>St. thomas college (Mount Lavinia)</p>
                         
@@ -81,7 +81,7 @@ const Education = () => {
                     </div>
 
                     <div className='edu-item'>
-                        <p><i class="date">2019 December</i></p>
+                        <p><i class="date">December 2019</i></p>
                         <h3 className='uni-name'>G.C.E Ordinary Level</h3>
                         <p>St. thomas preparatory school (Colombo 03)</p>
                         
