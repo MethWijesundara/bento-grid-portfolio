@@ -10,7 +10,7 @@ function ContactMe(){
 
     return(
         <section className="contact-container">
-            <h2>4. Let's talk!</h2>
+            <h2>4. let's talk!</h2>
             <div className="contact-content-wrapper">
                 <p>Have a project in mind or just want to say hello?</p>
                 <p>I'd love to hear from you!</p>
