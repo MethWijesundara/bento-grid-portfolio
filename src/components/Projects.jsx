@@ -37,7 +37,8 @@ function Projects(){
             date: 'March 2026',
             status: "Completed",
             description: 'Fetches real-time weather data and sends a desktop notification with personalized advice.',
-            github: 'https://github.com/MethWijesundara/automated-weather-notifier'
+            github: 'https://github.com/MethWijesundara/automated-weather-notifier',
+            theme: 'Weather/ Alerts & Utility'
         },
 
         {
@@ -48,7 +49,8 @@ function Projects(){
             date: "February 2026",
             status: "Completed",
             description: "A simple Python script that calculates kinetic energy and potential energy when velocity, mass and height is entered. ",
-            github: "https://github.com/MethWijesundara/motion-energy-calculator"
+            github: "https://github.com/MethWijesundara/motion-energy-calculator",
+            theme: 'Physics'
         }
     ]
     return(
@@ -60,10 +62,11 @@ function Projects(){
 
                 <h3>Discover some of the stuff I've been working on..</h3>
                 <p>Most of my work so far has been related to frontend.</p>
+                <p><i>(Click any project to view on GitHub)</i></p>
                 {/* <p>(Click on the cloud icon to view on github)</p> */}
                 </div>
 
-                <div className="project-top-right">
+                {/* <div className="project-top-right">
                     <div className="project-type-buttons-container">
                         <button>All</button>
                         <button>Frontend</button>
@@ -71,7 +74,7 @@ function Projects(){
                         <button>Fullstack</button>
                         <button>Programming</button>
                     </div>
-                </div>
+                </div> */}
 
             </div>
 
@@ -109,12 +112,12 @@ function Projects(){
                         {project.description}</p>
 
                     <br />
-                    <p className="project-image-credits"><i>Image credits: <a href="https://www.technologynetworks.com/genomics/articles/what-are-the-key-differences-between-dna-and-rna-296719">technologynetworks.com</a></i></p>
+                    {/* <p className="project-image-credits"><i>Image credits: <a href="https://www.technologynetworks.com/genomics/articles/what-are-the-key-differences-between-dna-and-rna-296719">technologynetworks.com</a></i></p> */}
                 </div>
 
-                <div className="project-card-right">
+                {/* <div className="project-card-right">
                     <img src={dna_to_rna_image}></img>
-                </div>
+                </div> */}
 
                     {/* View project + live demo* buttons */}
                     {/* <div className="project-buttons">

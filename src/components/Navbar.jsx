@@ -26,7 +26,7 @@ function Navbar({ activePage, setActivePage }){
                 <a onClick={() => setActivePage("work")} 
                 className={`navbar-button ${activePage === "work" ? "active" : ""}`}>
                     <img src={work_icon} />
-                    work
+                    work & skills
                 </a>
                 <a onClick={() => setActivePage("education")} 
                 className={`navbar-button ${activePage === "education" ? "active" : ""}`}>

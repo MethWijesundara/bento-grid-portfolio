@@ -36,7 +36,7 @@ function About(){
                     <br />
                     <p><strong>Pronouns → </strong>He/him</p>
                     {/* <p><strong>Age → </strong>23+</p> */}
-                    <p><strong>Born → </strong>2003 (Yes, I'm unc now)</p>
+                    <p><strong>Born → </strong>2003</p>
                     <p><strong>Favorite food rn → </strong>Chocolate cookies & Strawberry mojito</p>
 
                     <br /><br />
@@ -50,8 +50,8 @@ function About(){
                 </div>
             </div>
 
-            <h2>Latest Project</h2>
-            <h2>Latest Article</h2>
+            {/* <h2>Latest Project</h2> */}
+            {/* <h2>Latest Article</h2> */}
 
         </section>
     )
