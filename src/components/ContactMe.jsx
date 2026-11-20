@@ -11,36 +11,45 @@ function ContactMe(){
     return(
         <section className="contact-container">
             <h2>4. Let's talk!</h2>
-            <p>Have a project in mind or just want to say hello?</p>
-            <p>I'd love to hear from you!</p>
-            <br />
-            <p>Choose your preferred way to reach me →</p>
+            <div className="contact-content-wrapper">
+                <p>Have a project in mind or just want to say hello?</p>
+                <p>I'd love to hear from you!</p>
+                <br />
+                <p>Choose your preferred way to reach me: </p>
 
-            <div className="contact-options">
-                <button 
-                    className={method === "email" ? "selected" : ""}
-                    onClick={() => setMethod("email")}>
-                    <i className="fa-solid fa-envelope"></i> Email
-                </button>
+                <div className="contact-options">
+                    <a
+                        href="mailto:methw.dev@gmail.com" 
+                        // className={method === "email" ? "selected" : ""}
+                        // onClick={() => setMethod("email")}
+                        >
+                        <i className="fa-solid fa-envelope"></i> Email → methw.dev@gmail.com
+                    </a>
 
-                <button 
-                    className={method === "instagram" ? "selected" : ""}
-                    onClick={() => setMethod("instagram")}>
-                    <i className="fa-brands fa-instagram"></i> Instagram
-                </button>
+                    <a 
+                        href="https://www.instagram.com/methwi73/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        
+                        // className={method === "instagram" ? "selected" : ""}
+                        // onClick={() => setMethod("instagram")}
+                        >
+                        <i className="fa-brands fa-instagram"></i> Instagram → @methwi73
+                    </a>
+                </div>
+
+                {/* <div className="contact-message">
+                    <textarea
+                        className="message-input"
+                        placeholder = "Hey Meth! I came across your portfolio and..."
+                        rows = "5"
+                    />
+                </div> */}
+
+                {/* <button className="send-message">
+                    {method === "email" ? "Continue to Email" : "Copy & Open Instagram"}
+                </button> */}
             </div>
-
-            <div className="contact-message">
-                <textarea
-                    className="message-input"
-                    placeholder = "Hey Meth! I came across your portfolio and..."
-                    rows = "5"
-                />
-            </div>
-
-            <button className="send-message">
-                {method === "email" ? "Continue to Email" : "Copy & Open Instagram"}
-            </button>
         </section>
     )
 }
