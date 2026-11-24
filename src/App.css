@@ -5,9 +5,14 @@
     justify-content: space-between;
     min-height: 100dvh;
 
-    background: var(--bg-secondary);
+    background: var(--bg-primary);
+
+    
 }
 .main-layout{
+    /* background-image: url("/images/sky(2).jpg");
+    background-repeat: no-repeat;
+    background-position: center; */
     height: 100vh;
     display: flex;
     align-items: center;

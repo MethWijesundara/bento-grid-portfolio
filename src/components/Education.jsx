@@ -31,7 +31,7 @@ const Education = () => {
 
 
                 <div className='edu-item-container'>
-                <div className='edu-item'>
+                {/* <div className='edu-item'>
                         <p><i class="date">November 2026</i></p>
                         <h3 className='uni-name'>Kalana Furniture</h3>
                         <p>Ragama road, Kadawatha.</p>
@@ -39,7 +39,7 @@ const Education = () => {
                         <br />
                         <p>• Assitance with sales</p>
                         <p>• Keeping the shop tidy</p>
-                </div>
+                </div> */}
                     <div className='edu-item'>
                         <p><i class="date">February 2026 - Present</i></p>
                         <h3 className='uni-name'>Building projects on my own</h3>

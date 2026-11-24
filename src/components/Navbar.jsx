@@ -42,11 +42,11 @@ function Navbar({ activePage, setActivePage }){
                     contact me
                 </a>
 
-                {/* <a onClick={() => setActivePage("contact")} 
-                className={`navbar-button ${activePage === "contact" ? "active" : ""}`}>
+                <a onClick={() => setActivePage("blog")} 
+                className={`navbar-button ${activePage === "blog" ? "active" : ""}`}>
                     <img src={blog_icon} />
                     blog
-                </a> */}
+                </a>
 
 
             </div>

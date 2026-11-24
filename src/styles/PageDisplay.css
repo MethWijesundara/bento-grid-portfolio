@@ -1,7 +1,7 @@
 .page-display{
     /* width: 100%; */
     /* max-width: 900px; */
-    height: 80dvh;
+    height: 95dvh;
 
     overflow: hidden;
 
@@ -17,7 +17,7 @@
     margin: 0 auto;
     width: 100%;
 
-    background-color: var(--bg-primary);
+    background-color: var(--bg-secondary);
 }
 
 .page-content{

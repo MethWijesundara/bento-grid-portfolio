@@ -4,6 +4,7 @@ import Projects from "./Projects";
 import Education from "./Education";
 import ContactMe from "./ContactMe";
 import Skills from "./Skills";
+import Blog from "./Blog";
 
 // importing CSS
 import "/src/styles/PageDisplay.css"
@@ -18,6 +19,7 @@ function PageDisplay({ activePage }){
             {activePage === "education" && <Education />}
             {activePage === "contact" && <ContactMe />}
             {activePage === "skills" && <Skills />}
+            {activePage === "blog" && <Blog />}
         </div>
     </div>
     )

@@ -1,9 +1,11 @@
+import "/src/styles/Blog.css";
+
 const blogPosts = [];
 
 function Blog() {
     return (
         <section className="blog">
-            <h2>Blog</h2>
+            <h2>5. blog</h2>
             <p>Thoughts, notes, and things I’ve been learning.</p>
 
             {blogPosts.length > 0 ? (
@@ -19,7 +21,9 @@ function Blog() {
                                     {post.title}
                                 </a>
                             </h3>
-                            {post.date && <p>{post.date}</p>}
+                            {post.date && (
+                                <p className="blog-post-date">{post.date}</p>
+                            )}
                             <p>{post.excerpt}</p>
                         </article>
                     ))}

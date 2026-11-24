@@ -40,8 +40,6 @@ function App(){
       <Helmet>
           <title> 🌟 Portfolio • Meth Wijesundara</title>
       </Helmet>
-
-
       {/* <Header /> */}
       <div className="main-layout">
         <Navbar 
